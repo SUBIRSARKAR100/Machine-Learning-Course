@@ -1,4 +1,5 @@
 Recognize a Digit using Machine Learning
+
 1.Overview:- 
 This project uses TensorFlow and the MNIST dataset to recognize handwritten digits (0–9).
 The model is built using a simple neural network with one hidden layer and trained to achieve high accuracy on test data.
