@@ -1,65 +1,52 @@
-Recognize a Digit using Machine Learning
+# 📚 Assignment 1 – Digit Recognition using Machine Learning  
 
-1.Overview:- 
-This project uses TensorFlow and the MNIST dataset to recognize handwritten digits (0–9).
-The model is built using a simple neural network with one hidden layer and trained to achieve high accuracy on test data.
+This project is part of the **Machine Learning** course.  
+The goal of this assignment is to build a model that can recognize handwritten digits using the **MNIST dataset**.  
 
-2.Dataset:-
-MNIST dataset: A collection of 70,000 grayscale images of handwritten digits (28×28 pixels).
+---
 
-60,000 images are used for training, and 10,000 images are used for testing.
+## 🔧 Technologies Used  
 
-3.Model Architecture:-
-Flatten Layer: Converts 28×28 pixel images into a 1D array (784 values).
+- 🐍 Python  
+- 🧠 TensorFlow / Keras  
+- ☁ Google Colab  
+- 🗂 MNIST Dataset  
+- 📦 GitHub  
 
-Dense Layer (128 neurons): Fully connected layer with ReLU activation.
+---
 
-Dropout Layer (20%): Prevents overfitting by randomly turning off neurons during training.
+## 📁 File Structure  
 
-Dense Layer (10 neurons): Output layer with Softmax activation for classification into 10 digit classes.
+- **Assignment_1_Digit_Recognition.ipynb** – The main notebook containing all code, explanations, and predictions.  
+- **README.md** – You're reading it right now!  
 
-##Steps in the Code:-
-1.Import Libraries: TensorFlow, Keras, NumPy, Matplotlib.
 
-2.Load Data: Import MNIST dataset from Keras.
+---
 
-3.Normalize Data: Scale pixel values to range [0,1].
+## 🚀 How to Run  
 
-4.Build Model: Define the sequential neural network.
+1. Open the notebook in **Google Colab**.  
+2. Run each cell in order (Shift + Enter).   
+4. The trained model will predict the digit and display the result.  
 
-5.Compile Model: Use Adam optimizer and sparse categorical crossentropy loss.
+---
 
-6.Train Model: Fit on training data for 5 epochs.
+## 🎯 Model Info  
 
-7.Evaluate Model: Test accuracy on test dataset.
+- **Model Type:** Fully Connected Neural Network (Dense layers)  
+- **Accuracy on Test Data:** ~98% (may vary slightly each run)  
+- **Trained On:** MNIST dataset (60,000 training images, 10,000 test images)  
 
-8.Prediction: Show example image and predict its label.
+---
 
-Requirements:-
-To run this project, install the following:
+## 🙋‍♂ Author  
 
-bash
-Copy
-Edit
-pip install tensorflow matplotlib numpy
-How to Run
-Clone this repository:
+- **Name:** SUBIR SARKAR  
+- **Course:** Machine Learning  
+ 
 
-bash
-Copy
-Edit
-git clone :https://github.com/SUBIRSARKAR100/Machine-Learning-Course/blob/main/Assignment_1_digit_recognize%20(1).ipynb
-Open the notebook in Google Colab or Jupyter Notebook.
+---
 
-Run all cells to train the model and test predictions.
+## 🔗 Notebook Link  
 
-###Output Example
-Test Accuracy: Around 0.98 (98%).
-
-Predicted digit for the first test image is displayed along with the actual digit.
-
-Author
-Your Name :- SUBIR SARKAR
-
-Machine Learning Assignment 1
-
+📄 View the Notebook Here (https://github.com/SUBIRSARKAR100/Machine-Learning-Course/blob/main/Assignment_1_digit_recognize%20(1).ipynb)
